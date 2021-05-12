@@ -1,5 +1,5 @@
 ### Install Homebrew
-Homebrew is a package manager for macOS and Linux - you'll use it to install other software. To install Homebrew, navigate [here](https://brew.sh/) and paste the provided script into your terminal.<br>
+Homebrew is a package manager for macOS and Linux - you'll use it to install most of the other software you'll need. To install Homebrew, navigate [here](https://brew.sh/) and paste the provided script into your terminal.<br>
 Once Homebrew is set up, you’ll be able to use the command `brew install` to install any of the other packages.
 
 ### Install git
