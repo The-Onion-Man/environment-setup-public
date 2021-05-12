@@ -9,7 +9,9 @@ To install git, run the command `brew install git`.
 ### Node & Node version manager
 The next thing you’ll need to install is Node.js, a server-side runtime environment for JavaScript which allows us to use it for backend code. All of the units you work on at Codesmith will use Node, so it’s important that you set this up as early as possible! 
 
-You’ll want to install the latest stable version of Node. Something to note, however, is that you might sometimes find yourself using other packages that don’t support Node’s latest stable version - so you may occasionally need to upgrade or downgrade your version of Node to prevent compatibility issues. This probably won’t happen too frequently, but since it’s sometimes inevitable, we recommend that you install Node using a version manager such as `nvm`. This will allow you to quickly and easily switch between different Node versions when necessary.
+You’ll want to install the latest stable version of Node. Something to note, however, is that you might sometimes find yourself using other packages that don’t support Node’s latest stable version - so you may occasionally need to upgrade or downgrade your version of Node to prevent compatibility issues. This probably won’t happen too frequently, but since it’s sometimes inevitable, we recommend that you install Node using a version manager such as `nvm`. This will allow you to quickly and easily switch between different Node versions when necessary. 
+
+For instructions on using `nvm` to switch between Node versions, refer to the [official documentation](https://github.com/nvm-sh/nvm#usage).
 
 1.  To install nvm, run `brew install nvm`.
 
