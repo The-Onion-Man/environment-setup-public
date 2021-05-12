@@ -13,7 +13,9 @@ You’ll want to install the latest stable version of Node. Something to note, h
 
 For instructions on using `nvm` to switch between Node versions, refer to the [official documentation](https://github.com/nvm-sh/nvm#usage).
 
-1. Install nvm with the following command:
+To install:
+
+1. We won't be using Homebrew to install `nvm`. Instead, run the following command in your terminal:
 
    `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash`
 
