@@ -13,30 +13,38 @@ You’ll want to install the latest stable version of Node. Something to note, h
 
 For instructions on using `nvm` to switch between Node versions, refer to the [official documentation](https://github.com/nvm-sh/nvm#usage).
 
-1.  To install nvm, run `brew install nvm`.
+1. Install nvm with the following command:
 
-2.  Verify the installation by running the following command:
+   `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash`
 
-    `command -v nvm`
+   This command uses cURL (a tool command line tool used for downloading content from the internet) to download a Bash script and then executes it to install nvm.
 
-    This should return 'nvm' in your terminal. If you receive 'command not found' or no response at all, close your current terminal, reopen it, and run the command again.
+   _Note: At the time of writing, NVM **v0.38.0** was the most recent version available. You can check the [GitHub project page](https://github.com/nvm-sh/nvm) for the latest release of NVM, and adjust the above command to include the the newest version._
 
+2. Verify the installation by running the following command:
 
-3.  Install the latest stable LTS release of Node.js by running the following command:
+   `command -v nvm`
 
-    `nvm install --lts`
+   This should return 'nvm' in your terminal. If you receive 'command not found' or no response at all, close your current terminal, reopen it, and run the command again.
 
-    Note: At the time of writing, the latest stable LTS release of Node.js is 14.16.0.
+3. Install the latest stable LTS release of Node.js by running the following command:
 
+   `nvm install --lts`
 
-4.  Verify what version of Node is installed by running the following command:
+   _Note: At the time of writing, the latest stable LTS release of Node.js is **14.16.0**._
 
-    `nvm ls`
+4. Verify what version of Node is installed by running the following command:
 
-5.  Verify that Node.js is installed and the currently default version with the following command:
+   `nvm ls`
 
-    `node --version`
+   You should see something similar to the image below in your terminal.
 
-    Then verify that you have npm as well with:
+   ![wsl-nvm-ls](https://github.com/CodesmithLLC/precourse-part-1/blob/master/docs/assets/images/wsl-nvm-ls-14160.png)
 
-    `npm --version`
+5. Verify that Node.js is installed and the currently default version with the following command:
+
+   `node --version`
+
+   Then verify that you have npm as well with:
+
+   `npm --version`
