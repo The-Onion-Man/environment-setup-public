@@ -77,22 +77,22 @@ However, we've still got a few more things to take care of:
 - Integrating VSCode to work with WSL
 - Installing Node.js
 
-# Setting up Visual Studio Code with WSL
+## Setting up Visual Studio Code with WSL
 
 Now that we have WSL set up on our machine, we will now install Visual Studio Code and set it up so it works with WSL correctly.
 
 Note that these instructions are adapted from the [Visual Studio Code documentation](https://code.visualstudio.com/docs/remote/wsl).
 
-## 1. Install Visual Studio Code on the **Windows** side (not in WSL)
+### 1. Install Visual Studio Code on the **Windows** side (not in WSL)
 
 - [Download VSCode](https://code.visualstudio.com/)
   - When prompted to **Select Additional Tasks** during installation, be sure to check the **Add to PATH** option so you can easily open a folder in WSL using the `code` command.
 
-## 2. Install the Remote Development extension pack
+### 2. Install the Remote Development extension pack
 
 - [Download Remote Development extension pack](https://aka.ms/vscode-remote/download/extension)
 
-# Running WSL from VS Code
+## Running WSL from VS Code
 
 When you launch VS Code, it will not immediately connect to WSL. Follow the steps below to connect VS Code to WSL.
 
@@ -110,13 +110,13 @@ When you launch VS Code, it will not immediately connect to WSL. Follow the step
 
 _Note_: You can also click that green indicator in the bottom left corner to launch a new WSL VS Code window.
 
-# Install `nvm`, `node.js`, and `npm` on WSL
+## Install `nvm`, `node.js`, and `npm` on WSL
 
 There are multiple ways to install Node.js. We recommnd using a version manager as it takes care of handling the install process near seamlessly. Node Version Manager, more commonly called nvm, is the most popular way to install multiple versions of Node.js (though we will only install one).
 
 Note that these instructions are adapted from the [Microsoft documentation on installing Node.js on WSL2](https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2#install-nvm-nodejs-and-npm).
 
-## Instructions
+### Instructions
 
 1. Open a terminal in VS Code. Make sure that you are running it in WSL! Check the bottom left corner for that green indicator!
 2. Copy the following command and run it in the terminal:
@@ -164,7 +164,27 @@ Note that these instructions are adapted from the [Microsoft documentation on in
    Then verify that you have npm as well with:
 
    `npm --version`
+   
+## Install PostgreSQL and MongoDB on WSL
+PostgreSQL and MongoDB are database systems that you'll use during Codesmith. Although you won't be using them for anything in the precourse, we recommend installing them ahead of time so that when you reach the databases unit in the program, you'll be ready to dive straight in.
 
+### Install PostgreSQL
+[(Instructions adapted From Microsoft docs)](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-postgresql):
+
+    1.  Update your Ubuntu packages: `sudo apt update`
+    2.  Once the packages have updated, install PostgreSQL (and the -contrib package which has some helpful utilities) with: `sudo apt install postgresql postgresql-contrib`
+    3.  Confirm installation and get the version number: `psql --version`
+
+### Install MongoDB
+[Installing MongoDB on WSL](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-mongodb):
+
+     1. Open a WSL terminal
+     2. Update your Ubuntu packages: `sudo apt update`
+     3. Once the packages have updated, install MongoDB with: `sudo apt install mongodb`
+     4. Confirm installation and get the version number: `mongod --version` and `mongo --version`
+
+   - You can check to make sure the CLI is installed by typing `mongo --version` in a terminal.
+  
 # Additional Notes
 
 With WSL, there is one extra step if you ever want to see your files in a GUI File Explorer instead of just the command line. The following two-step process is what you would do in order to open a File Explorer window that shows your current directory of files.
