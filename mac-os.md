@@ -50,3 +50,29 @@ To install:
    Then verify that you have npm as well with:
 
    `npm --version`
+ 
+## Install PostgreSQL and MongoDB
+PostgreSQL and MongoDB are database systems that you'll use during Codesmith. Although you won't be using them for anything in the precourse, we recommend installing them ahead of time so that when you reach the databases unit in the program, you'll be ready to dive straight in.
+
+### Install PostgreSQL
+- Select your OS.
+
+  - Mac (with Homebrew): run the command `brew install postgresql`. (recommended)
+  - Mac (w/o Homebrew):
+    1.  Follow this [link](https://www.postgresql.org/download/) to download the PostgreSQL installer on your machine:
+    2.  Use the Interactive installer by EnterpriseDB. You can skip the 'Stack Builder' add-on.
+  - Linux: Use the same link from above and follow the instructions for your specific linux distro (Ubuntu/Redhat/etc).
+
+- Go to your terminal and verify that you can run the psql command: `psql --version`
+
+- If the psql command isn't recognized, you'll need to add it to your PATH.
+  - Linux and Mac: add the line `export PATH=$PATH:/Library/PostgreSQL/latest/bin` to your `~/.bashrc` or `~/.bash_profile`, respectively, and restart your terminal. The exact path may vary so be sure to confirm the location of the postgresql binaries.
+
+### Install MongoDB
+Install the MongoDB Community edition by following the instructions on the links below.
+
+   - [Linux](https://docs.mongodb.com/manual/administration/install-on-linux/) - select your distro
+   - [MacOS](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/) - must have homebrew
+
+   - You can check to make sure the CLI is installed by typing `mongo --version` in a terminal.
+  
