@@ -63,3 +63,8 @@ Managing extensions for VS Code (includes themes):
 
 Launching VS Code from a terminal:
 <https://code.visualstudio.com/docs/setup/mac>
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=SYRwSyjD8oI
+" target="_blank"><img src="./docs/assets/images/vscode-video-thumb.png"/></a>
+
+<https://www.youtube.com/watch?v=SYRwSyjD8oI>
