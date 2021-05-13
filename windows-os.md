@@ -171,17 +171,17 @@ PostgreSQL and MongoDB are database systems that you'll use during Codesmith. Al
 ### Install PostgreSQL
 [(Instructions adapted From Microsoft docs)](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-postgresql):
 
-    1.  Update your Ubuntu packages: `sudo apt update`
-    2.  Once the packages have updated, install PostgreSQL (and the -contrib package which has some helpful utilities) with: `sudo apt install postgresql postgresql-contrib`
-    3.  Confirm installation and get the version number: `psql --version`
+   1.  Update your Ubuntu packages: `sudo apt update`
+   2.  Once the packages have updated, install PostgreSQL (and the -contrib package which has some helpful utilities) with: `sudo apt install postgresql postgresql-contrib`
+   3.  Confirm installation and get the version number: `psql --version`
 
 ### Install MongoDB
 [Installing MongoDB on WSL](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-mongodb):
 
-     1. Open a WSL terminal
-     2. Update your Ubuntu packages: `sudo apt update`
-     3. Once the packages have updated, install MongoDB with: `sudo apt install mongodb`
-     4. Confirm installation and get the version number: `mongod --version` and `mongo --version`
+   1. Open a WSL terminal
+   2. Update your Ubuntu packages: `sudo apt update`
+   3. Once the packages have updated, install MongoDB with: `sudo apt install mongodb`
+   4. Confirm installation and get the version number: `mongod --version` and `mongo --version`
 
    - You can check to make sure the CLI is installed by typing `mongo --version` in a terminal.
   
