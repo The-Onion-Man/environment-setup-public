@@ -2,6 +2,8 @@
 
 First things first, you’ll need to set up your dev environment and install the software that you’ll be using during your time at Codesmith and beyond. We recommend following all of the below steps to fully set up your environment before you begin working. Although you won’t be using all of these things right now, they’ll be necessary to have during the program - it’s best to get a head start so that you’re able to come into the program with everything working ahead of time.
 
+One important thing to note - we're going to cover a lot of ground here, and if you don't have previous experience using any of these technologies, most of this will be very unfamiliar to you. But don't be intimidated - that's OK! We don't expect you to fully understand everything at this point, and you'll get plenty of practice to become familiar with it all during the program.
+
 ### What OS should I be using?
 - If you're using Mac OS, you're going to be okay. We use macs here, too!
 - Linux users, you have nothing to fear either.
