@@ -46,7 +46,7 @@ Download VS Code:
 - [eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint): linting integration
 - [code runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner): for quickly running code
 - [quokka](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode): displays console.logs inline
-- [live share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare): to easily collaborate in a shared workspace
+- [live share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare): to easily collaborate in a shared workspace (we use this extension for pair programming in the remote immersive)
 - [bracket pair colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2): uniquely colorizes matching brackets
 
 
