@@ -174,6 +174,10 @@ Install PostgreSQL for WSL: [(Instructions adapted From Microsoft docs)](https:/
    1.  Update your Ubuntu packages: `sudo apt update`
    2.  Once the packages have updated, install PostgreSQL (and the -contrib package which has some helpful utilities) with: `sudo apt install postgresql postgresql-contrib`
    3.  Confirm installation and get the version number: `psql --version`
+ 
+ Install PostgreSQL for Windows (native):
+    1.  Follow this [link](https://www.postgresql.org/download/) to download the PostgreSQL installer on your machine:
+    2.  Use the Interactive installer by EnterpriseDB. You can skip the 'Stack Builder' add-on.
 
 ### Install MongoDB
 Install the MongoDB Community edition by following the instructions on the link below.
