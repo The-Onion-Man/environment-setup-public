@@ -176,6 +176,7 @@ Install PostgreSQL for WSL: [(Instructions adapted From Microsoft docs)](https:/
    3.  Confirm installation and get the version number: `psql --version`
  
  Install PostgreSQL for Windows (native):
+ 
     1.  Follow this [link](https://www.postgresql.org/download/) to download the PostgreSQL installer on your machine:
     2.  Use the Interactive installer by EnterpriseDB. You can skip the 'Stack Builder' add-on.
 
