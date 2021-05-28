@@ -184,6 +184,9 @@ Install the MongoDB Community edition by following the instructions on the link 
    3. Once the packages have updated, install MongoDB with: `sudo apt install mongodb`
    4. Confirm installation and get the version number: `mongod --version` and `mongo --version`
    - You can check to make sure the CLI is installed by typing `mongo --version` in a terminal.
+ 
+ [Installing MongoDB for Windows Native[(https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
+
   
 # Additional Notes
 
