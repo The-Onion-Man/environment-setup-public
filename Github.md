@@ -9,7 +9,7 @@ GitHub is the software engineer's hub - where you'll find code written by your f
 
 To update us on your progress is a little more complicated - follow these instructions step by step.
 
-If you hit a block, consider the best search request to make on google and search for an answer (this is a core skill). If that does not work, send a message to hello@codesmith.io with the subject line: help (it must include 'help' in the subject!)
+If you hit a block, consider the best search request to make on google and search for an answer (this is a core skill). If that does not work, you can post a message outlining your problem in your cohort's slack channel to request help.
 
 ## How do I get started?
 
