@@ -34,6 +34,19 @@ If you hit a block, consider the best search request to make on google and searc
 
 For additional information on using Git and GitHub, watch this bonus video: <https://www.youtube.com/watch?v=tRTckrrCME4>
 
+## GitHub Authentication
+
+As of August 2021, GitHub requires the use of **tokens** to authenticate command-line GitHub operations (previously, you would have used your GitHub password). This means that you'll need to create a personal access token - and if you've previously authenticated command-line operations using a password, you'll need to replace your stored password with this token.
+
+Please follow the below instructions to set up tokenized authentication:
+
+1. Create a personal access token on Github. Follow the steps in [these docs](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) from the very top of the page (“Creating a personal access token”) through step 9 (copying the token to your clipboard):
+    - **When prompted to select scope, check the box marked “repo”. The others are not necessary.**
+2. If you have *not* previously used GitHub through the command line on your machine, continue on to the "Using a token on the command line" instructions in the guide linked above. If you *have* previously used GitHub through the command line using password authentication, you'll want to instead follow step 3 below to replace it.
+3. Delete github keychain “internet password” via the command line or via macOS Keychain Access GUI and replace the previous password with the access token generated in step 1. (See steps below)
+    - To delete via macOS Keychain Access, follow the steps in [these docs](https://docs.github.com/en/get-started/getting-started-with-git/updating-credentials-from-the-macos-keychain) under “Updating your credentials via Keychain Access”. To delete via the command line, follow the steps under “Deleting your credentials via the command line”. If the command line deletion fails, try deleting the credentials from Keychain Access.
+    - **Once you have successfully deleted your internet password, PASTE IN the token you copied to your clipboard in step 1.**
+4. After you have successfully updated your token, you should be able to run git clone without errors (you may be prompted for your macOS system password when you run git clone).
 
 ## What do I do when I am done with a unit?
 
