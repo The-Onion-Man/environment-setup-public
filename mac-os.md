@@ -3,7 +3,7 @@ Homebrew is a package manager for macOS and Linux - you'll use it to install mos
 Once Homebrew is set up, you’ll be able to use the command `brew install` to install any of the other packages.
 
 ### Install git
-You’ll be using Git and Github for version control - you can read more on that [here](https://github.com/CodesmithLLC/precourse-part-1/blob/master/GitHub.md), and it’s important that you take the time to become familiar with it.
+You’ll be using Git and Github for version control - you can read more on that [here](https://github.com/CodesmithLLC/dev-environment-setup/blob/main/Github.md), and it’s important that you take the time to become familiar with it.
 To install git, run the command `brew install git`.
 
 ### Node & Node version manager
