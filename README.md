@@ -5,9 +5,8 @@ First things first, you’ll need to set up your dev environment and install the
 One important thing to note - we're going to cover a lot of ground here, and if you don't have previous experience using any of these technologies, most of this will be very unfamiliar to you. But don't be intimidated - that's OK! We don't expect you to fully understand everything at this point, and you'll get plenty of practice to become familiar with it all during the program.
 
 ### What OS should I be using?
-- If you're using Mac OS, you're going to be okay. We use macs here, too!
-- Linux users, you have nothing to fear either.
-- If you're using Windows, we recommend installing the Windows Subsystem for Linux (WSL). You can find instructions in the guide below.
+
+Our curriculum is designed and maintained on Mac computers.  For that reason, we **STRONGLY** recommend a Mac for this program as our curriculum utilizes a lot of technology that is designed to work well with Mac's Unix based OS. If you choose to use a non-Mac, you'll need to install and learn Linux (such as WSL) on the machine of your choice. Please note that technology changes rapidly, and since we don't work in Windows or Linux, we don't know about changes on those platforms until one of our Residents has an issue.  We always do our best to help with these issues, but this can often take hours to debug (and away from time that should be spent coding).  While we always recommend purchasing the best computer you can afford, you do not need to go out and buy a brand new MacBook Pro.  Any working new or used Mac will do including MacBook and MacBook Air.
 
 For instructions on environment setup, please follow whichever of the below links applies to you.
 
