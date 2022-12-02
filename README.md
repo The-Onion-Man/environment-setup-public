@@ -69,3 +69,8 @@ Launching VS Code from a terminal:
 " target="_blank"><img src="./docs/assets/images/vscode-video-thumb.png"/></a>
 
 <https://www.youtube.com/watch?v=SYRwSyjD8oI>
+
+
+### Download the Slack app
+
+In the Codesmith immersive, we'll be using your cohort's Slack channel for all announcements and written communication between your instructors, program coordinators, and cohortmates. For the best experience, we *strongly* recommend [downloading the desktop app](https://slack.com/downloads) rather than using the browser version.
