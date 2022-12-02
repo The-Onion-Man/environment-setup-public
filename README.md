@@ -13,6 +13,10 @@ For instructions on environment setup, please follow whichever of the below link
 - [Environment setup for MacOS and Linux](https://github.com/CodesmithLLC/dev-environment-setup/blob/main/mac-os.md)
 - [Environment setup for Windows OS](https://github.com/CodesmithLLC/dev-environment-setup/blob/main/windows-os.md)
 
+### Download the Slack app
+
+In the Codesmith immersive, we'll be using your cohort's Slack channel for all announcements and written communication between your instructors, program coordinators, and cohortmates. For the best experience, we *strongly* recommend [downloading the desktop app](https://slack.com/downloads) rather than using the browser version.
+
 ### You Need To Learn The Command Line
 
 Still using the Windows Explorer or Mac Finder? These tools have a graphical interface (pictures of folders and files). However, many of the tools you'll use as a developer lack a nice graphical user interface (GUI). In order to use them, you'll need to be familiar with the command line. This is a management interface using only text. Don't worry! Once you get used to it, you'll find it makes your life much easier. You can use any resources you like. We recommend reading these.
@@ -69,8 +73,3 @@ Launching VS Code from a terminal:
 " target="_blank"><img src="./docs/assets/images/vscode-video-thumb.png"/></a>
 
 <https://www.youtube.com/watch?v=SYRwSyjD8oI>
-
-
-### Download the Slack app
-
-In the Codesmith immersive, we'll be using your cohort's Slack channel for all announcements and written communication between your instructors, program coordinators, and cohortmates. For the best experience, we *strongly* recommend [downloading the desktop app](https://slack.com/downloads) rather than using the browser version.
